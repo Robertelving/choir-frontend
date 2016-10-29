@@ -16,14 +16,20 @@
     
     <repositories>
       <repository>
-        <id>choir-repo</id>
-        <name>Helges Repo</name>
-        <url>http://139.59.151.102:8082/artifactory/libs-release-local</url>
+        <id>artifactory</id>
+        <name>artifactory-releases</name>
+        <url>http://45.55.211.111:8082/artifactory/ext-release-local</url>
+        <snapshots>
+            <updatePolicy>interval:1</updatePolicy>
+        </snapshots>
       </repository>
       <repository>
-        <id>choir-repo-snapshot</id>
-        <name>Helges Snapshot Repo</name>
-        <url>http://139.59.151.102:8082/artifactory/libs-snapshot-local</url>
+        <id>artifactory-snapshot</id>
+        <name>artifactory-releases</name>
+        <url>http://45.55.211.111:8082/artifactory/ext-snapshot-local</url>
+        <snapshots>
+            <updatePolicy>interval:1</updatePolicy>
+        </snapshots>
       </repository>
     </repositories>
 
